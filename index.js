@@ -2,8 +2,6 @@ var addCart = document.querySelector('#btn');
 var toQuantity = document.querySelector('#tquantity');
 var cartDis = document.querySelector('#cdisplay');
 
-// var prDisplay = document.querySelector('#pdisplay');
-// var itDisplay = document.querySelector('#idisplay');
 
 
 addCart.addEventListener('click', function(){
