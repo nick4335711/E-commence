@@ -1,0 +1,126 @@
+nav{
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    height: 50px;
+    /* position: fixed; */
+    /* font-family: cursive; */
+    /* font-size: x-large; */
+    /* border-bottom: 10px; box-shadow: 10px; */
+}
+.logo{
+    /* display: inline-block; */
+    position: relative;
+    left: 10%;
+    top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+   color: rgb(62, 135, 138);
+}
+.search{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: -120%;
+    padding: 5px;
+}
+
+a{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    text-decoration: none;
+    padding-right: 20px;
+    top: -120%;
+    color: #696666;
+}
+.cart1{
+    display: inline-block;
+    background: #b9b7b7;
+    width: 26rem;
+    height: 28rem;
+    position: relative;
+    left: 15%;
+    margin-top: 6%; 
+}
+ .cart{
+     display: inline-block;
+     width: 18rem;
+     position: relative;
+     left: 15%;
+     top: 5%;
+
+ }
+ .sect{
+     /* display: block; */
+     width: 90px;
+     position: relative;
+     left: 5%;
+     margin-top: 5%;
+     border: 2px solid #696666;
+     transition: transform .2s;
+     width: 95px;
+     cursor: pointer;
+ }
+
+ /* .list{ */
+     /* background: red; */
+     /* width: 92px; */
+ /* } */
+ .sect:hover{
+     transform: scale(1.5);
+ }
+ .itemlist{
+     /* background: #b9b7b7; */
+     width: 100px;
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    left: 70px;
+ }
+ .addtocart{
+     display: inline-block;
+     position: absolute;
+     left: 70%;
+     top: 90%;
+ }
+ 
+ button{
+     padding: 15px;
+     color: #696666;
+
+ }     
+ .sizes{
+    color: #494848;
+     display: inline-block;
+     position: absolute;
+     left: 70%;
+     top: 40%;
+ }
+ .black{
+     background-color: black;
+     border: 0px;
+     border-radius: 5px;
+ }
+ .brown{
+    background-color: brown ;
+    border: 0px;
+    border-radius: 5px;
+}
+.gold{
+    background-color: goldenrod;
+    border: 0px;
+    border-radius: 5px;
+}
+.grey{
+    background-color: pink;
+    border: 0px;
+    border-radius: 5px;
+}
+
+h4{
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    color: grey;
+}
