@@ -2,7 +2,13 @@ var addCart = document.querySelector('#btn');
 var toQuantity = document.querySelector('#tquantity');
 var cartDis = document.querySelector('#cdisplay');
 
+var price = document.querySelector('#price');
+pRices = 90.89;
 
+toQuantity.addEventListener('click', function(){
+    pRices++;
+    price.textContent = pRices;
+});
 
 addCart.addEventListener('click', function(){
     cartDis.textContent = toQuantity.value
